@@ -6,7 +6,7 @@ import io
 st.set_page_config(page_title="포케팜 매출 계산기", page_icon="💰", layout="wide")
 
 st.title("💰 포케팜 매출 신고 계산기")
-st.caption("made by 윤 & 쿠마아이콘 🐻")
+st.caption("made by 윤형식 🐻")
 
 # 2. 사이드바 - 플랫폼 바로 선택 (라디오 버튼)
 st.sidebar.header("플랫폼 선택")
@@ -138,3 +138,4 @@ else:
                 st.write(df)
         except Exception as e:
             st.error(f"애플 리포트 처리 중 오류: {e}")
+
